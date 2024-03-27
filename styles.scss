@@ -147,6 +147,7 @@ body {
 
 .advanced-line {
     border-bottom: 1px solid #ebebeb;
+    width: 100%;
 }
 
 .advanced-search {
@@ -156,7 +157,80 @@ body {
     margin: 40px 2% 0 45px;
 }
 
+.advanced-search-header > div {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
 
+.advanced-header {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    min-height: 42px;
+    font-weight: 500;
+    color: #333;
+    vertical-align: middle;
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.advanced-search > :first-child {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    justify-content: stretch;
+}
+
+.advanced-label {
+    height: 30px;
+}
+
+.advanced-label > label {
+    font-size: 13px;
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+
+.advanced-input {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.advanced-input > input {
+    float: left;
+    display: inline-block;
+    width: 32%;
+    min-width: 160px;
+    margin: 0 0 8px 1%;
+    color: #555;
+    font-size: 11px;
+    padding-left: 5px;
+    vertical-align: middle;
+    position: relative;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
 
 // Form Buttons
 .searchbar-buttons > input {
@@ -208,3 +282,20 @@ body {
 
 // Advanced Search submit button
 
+.advanced-submit {
+    background-color: #4d90fe;
+    color: #fff;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    height: 30px;
+    min-width: 54px;
+    float: right;
+    margin: 10px 0;
+}
+
+.advanced-submit:hover {
+    background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+}
