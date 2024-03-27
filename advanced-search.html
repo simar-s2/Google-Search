@@ -4,27 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Advanced Search</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <form action="https://google.com/search">
+
+    <nav class="navbar">
+        <span class="advanced-logo" role="presentation"></span>
+        <a href="index.html" class="nav-link">Search</a>
+    </nav>
+
+    <h1 class="h1-advanced">Advanced Search</h1>
+    <div class="advanced-line"></div>
+
+    <form action="https://google.com/search" class="advanced-search">
+        <div class="advaned-search-header">
+            
+        </div>
+
         <div>
-            <label for="as_q">all these words:</label>
-            <input type="text" name="as_q" id="as_q">
+            <label for="as_q" class="advanced-label">all these words:</label>
+            <input type="text" name="as_q" id="as_q" class="advanced-input">
         </div>
         <div>
-            <label for="as_epq">this exact word or phrase:</label>
-            <input type="text" name="as_epq" id="as_epq">
+            <label for="as_epq" class="advanced-label">this exact word or phrase:</label>
+            <input type="text" name="as_epq" id="as_epq" class="advanced-input">
         </div>
         <div>
-            <label for="as_oq">any of these words:</label>
-            <input type="text" name="as_q" id="as_oq">
+            <label for="as_oq" class="advanced-label">any of these words:</label>
+            <input type="text" name="as_q" id="as_oq" class="advanced-input">
         </div>
         <div>
-            <label for="as_eq">none of these words:</label>
-            <input type="text" name="as_q" id="as_eq">
+            <label for="as_eq" class="advanced-label">none of these words:</label>
+            <input type="text" name="as_q" id="as_eq" class="advanced-input">
         </div>
-        <input type="submit" value="Advanced Search">
+        <div class="advanced-line"> </div>
+        <input type="submit" value="Advanced Search" class="advanced-submit">
     </form>
-    <a href="index.html">Search</a>
 </body>
 </html>
