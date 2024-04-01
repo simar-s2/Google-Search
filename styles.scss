@@ -49,7 +49,7 @@ body {
 .logo {
     display: flex;
     justify-content: center;
-    height: calc(100vh - 560px);
+    height: 30vh;
 
     div {
         display: block;
@@ -88,7 +88,7 @@ body {
         border-radius: 1.5rem;
         margin: 0 auto;
         max-width: 600px;
-        min-width: 400px;
+        min-width: 200px;
         width: auto;
         margin-bottom: 1rem;
     }
@@ -148,7 +148,7 @@ body {
 }
 
 .advanced-search {
-    max-width: 1140px;
+    max-width: 1000px;
     min-width: 200px;
     margin: 40px 2% 0 45px;
 
@@ -167,7 +167,7 @@ body {
 
     .grid-container {
         display: grid;
-        grid-template-columns: 1fr 5fr;
+        grid-template-columns: 1fr 4fr;
         align-items: center;
     }
 
@@ -175,21 +175,20 @@ body {
         height: 30px;
         label {
             font-size: 13px;
-            min-width: 167px;
+            min-width: fit-content;
             height: 42px;
             color: #222;
             font-size: 13px;
-            line-height: 16px;
         }
     }
 
     .advanced-input {
-        min-width: 167px;
+        min-width: 150px;
         min-height: 41px;
 
         input {
-            width: 32%;
-            min-width: 160px;
+            width: 50%;
+            min-width: 120px;
             margin: 0 0 8px 1%;
             color: #555;
             font-size: 11px;
