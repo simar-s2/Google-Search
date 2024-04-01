@@ -49,7 +49,7 @@ body {
 .logo {
     display: flex;
     justify-content: center;
-    height: auto;
+    height: calc(100vh - 560px);
 
     div {
         display: block;
